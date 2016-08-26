@@ -1,0 +1,75 @@
+
+.neo {
+        font-family: 'Neo'!important;
+        font-weight: normal;
+        text-transform: uppercase!important;
+}
+.neo2 {
+        font-family: 'Neo2'!important;
+        font-weight: normal;
+        text-transform: uppercase!important;
+}
+.dinr {
+        font-family: 'DinReg'!important;
+        font-weight: normal;
+}
+.dinb {
+        font-family: 'DinBold'!important;
+        font-weight: normal;
+}
+.dinm {
+        font-family: 'DinMed'!important;
+        font-weight: normal;
+}
+.dinl {
+        font-family: 'DinLight'!important;
+        font-weight: normal;
+}
+.symbols {
+        font-family: 'Symbols'!important;
+        font-weight: normal;
+        text-transform: none!important;
+}
+
+.sans {font-family:sans-serif!important;}
+.sansbold {font-family:sans-serif!important;font-weight: bold!important;font-style: none!important;}
+.sansitalic {font-family:sans-serif!important;font-style: italic!important; font-weight:normal!important;}
+
+@font-face {font-family: 'Neo';src: url('fonts/1E7067_0_0.eot');src: url('fonts/1E7067_0_0d41d.eot?#iefix') format('embedded-opentype'),url('fonts/1E7067_0_0.woff') format('woff'),url('fonts/1E7067_0_0.ttf') format('truetype');}
+@font-face {font-family: 'Neo2';src: url('fonts/2A57E4_0_0.eot');src: url('fonts/2A57E4_0_0d41d.eot?#iefix') format('embedded-opentype'),url('fonts/2A57E4_0_0.woff') format('woff'),url('fonts/2A57E4_0_0.ttf') format('truetype'), url('fonts/2A57E4_0_0.svg#Neo2') format('svg');font-weight: normal;font-style: normal;}
+
+@font-face {font-family: 'DinReg';src: url('fonts/1E7067_1_0.eot');src: url('fonts/1E7067_1_0d41d.eot?#iefix') format('embedded-opentype'),url('fonts/1E7067_1_0.woff') format('woff'),url('fonts/1E7067_1_0.ttf') format('truetype');}
+
+@font-face {font-family: 'Silom';src: url('fonts/Silom.ttf'); font-weight: normal; font-style: normal;}
+@font-face {font-family: 'DinMed';src: url('fonts/1E7067_2_0.eot');src: url('fonts/1E7067_2_0d41d.eot?#iefix') format('embedded-opentype'),url('fonts/1E7067_2_0.woff') format('woff'),url('fonts/1E7067_2_0.ttf') format('truetype');}
+
+
+@font-face {font-family: 'DinBold';src: url('fonts/1E7067_3_0.eot');src: url('fonts/1E7067_3_0d41d.eot?#iefix') format('embedded-opentype'),url('fonts/1E7067_3_0.woff') format('woff'),url('fonts/1E7067_3_0.ttf') format('truetype');}
+
+
+@font-face {font-family: 'DinLight';src: url('fonts/1E7067_4_0.eot');src: url('fonts/1E7067_4_0d41d.eot?#iefix') format('embedded-opentype'),url('fonts/1E7067_4_0.woff') format('woff'),url('fonts/1E7067_4_0.ttf') format('truetype');}
+@font-face {font-family: 'DinLightItalic';src: url('fonts/1FD3B0_0_0.eot');src: url('fonts/1FD3B0_0_0d41d.eot?#iefix') format('embedded-opentype'),url('fonts/1FD3B0_0_0.woff') format('woff'),url('fonts/1FD3B0_0_0.ttf') format('truetype');}
+
+@font-face {
+    font-family: 'Symbols';
+    src: url('fonts/symbol-signs-webfont.eot');
+    src: url('fonts/symbol-signs-webfontd41d.eot?#iefix') format('embedded-opentype'),
+         url('fonts/symbol-signs-webfont.woff') format('woff'),
+         url('fonts/symbol-signs-webfont.ttf') format('truetype'),
+         url('fonts/symbol-signs-webfont.svg#SymbolSignsBasisset') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+    @font-face {
+        font-family: 'Neo2';
+        src: url('fonts/neographikmtstd-webfont.svg#Neo2') format('svg');
+    }
+    @font-face {
+        font-family: 'Symbols';
+        src: url('fonts/symbol-signs-webfont.svg#SymbolSignsBasisset') format('svg');
+    }
+}
