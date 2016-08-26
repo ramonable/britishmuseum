@@ -1,2 +1,2 @@
 # britishmuseum
-My UI british museum site.
+Our user friendly version of the british museum site.
